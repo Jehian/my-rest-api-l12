@@ -8,16 +8,18 @@ use App\Models\User;
 use OpenApi\Annotations as OA;
 
 /**
- 
-*Class Book.
-*@author benny.422024008@ukrida.ac.id
-*@OA\Schema(
-*description="Book model",
-*title="Book model",
-*@OA\Xml(
-*name="Book"
-*)
-*)*/
+ * Class Book.
+ * 
+ * @author Benny <benny422024008@ukrida.ac.id>
+ * 
+ * @OA\Schema(
+ *     description="Book model",
+ *     title="Book model",
+ *     @OA\Xml(
+ *         name="Book"
+ *     )
+ * )
+ */
 class Book extends Model
 {
     use SoftDeletes;
