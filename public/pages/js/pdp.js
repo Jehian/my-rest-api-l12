@@ -39,9 +39,9 @@ function getDataByWindowUrlKey() {
       }
 
       // tag
-      let collectionOfTag = ['Book', 'EBook', 'Best Seller', 'Fiction', 'Education', 'Literature', 'Classics',
-        'Real Event', 'Young Adult', 'Religion', 'Health', 'Comic', 'Horror', 'Poem', 'Filmed', 'Encyclopedia',
-        'In English', 'In Indonesian'];
+      let collectionOfTag = ['Painting','Oil Based', 'Pencils', 'Landscapes', 'Romanticism', 'Impressionism', 'Cubism', 'Surrealism',
+        'Expressionism', 'Contemporary', 'Pointilism', 'Dadaism', 'Fauvism', 'Neoclasisicism', 'Baroque', 'Manerism', 'Rennaisance',
+        'Portraits'];
       let selectedTags = collectionOfTag.sort(() => .5 - Math.random()).slice(0, 4); // only get 4, randomly
       template = '';
       for (let index = 0; index < selectedTags.length; index++) {
@@ -57,7 +57,7 @@ function getDataByWindowUrlKey() {
         Swal.fire({
           position: "top-end",
           icon: "warning",
-          title: "Yaah...",
+          title: "False",
           html: "Produk yang Anda cari tidak ditemukan",
           showConfirmButton: false,
           timer: 5000
