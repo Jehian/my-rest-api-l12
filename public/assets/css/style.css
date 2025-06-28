@@ -191,7 +191,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #dcb14a;
+  color: #373632;
 }
 
 button, input[type=submit] {
@@ -3631,7 +3631,7 @@ input[type=checkbox] {
 
 .single-hero-slider-7, .single-hero-slider-four {
   height: 600px;
-  background: #f1f1f1;
+  background: #ffffff;
   display: -webkit-box !important;
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
@@ -3689,7 +3689,7 @@ input[type=checkbox] {
 }
 .single-hero-slider-7 h6, .single-hero-slider-four h6 {
   position: relative;
-  color: #999999;
+  color: #000000;
   font-size: 16px;
   font-weight: 400;
 }
