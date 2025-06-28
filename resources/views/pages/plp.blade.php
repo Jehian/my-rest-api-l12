@@ -13,20 +13,8 @@
                             <h6 class="mb-20">Type</h6>
                             <select class="_filter form-select form-select-sm" name="_publisher" onchange="getData()">
                                 <option value="" selected>All</option>
-                                <option value="putnam">Putnam</option>
-                                <option value="harriman house">Harriman House</option>
-                                <option value="balai pustaka">Balai Pustaka</option>
-                                <option value="Lentera dipantara">Lentera Dipantara</option>
-                                <option value="pan books">Pan Books</option>
-                                <option value="firefly books">Firefly Books</option>
-                                <option value="gramedia">Gramedia</option>
-                                <option value="scholastic">Scholastic</option>
-                                <option value="harper">Harper</option>
-                                <option value="dk children">DK Children</option>
-                                <option value="bentang pustaka">Bentang Pustaka</option>
-                                <option value="gagas media">Gagas Media</option>
-                                <option value="grasindo">Grasindo</option>
-                                <option value="Marjin Kiri">Marjin Kiri</option>
+                                <option value="Gogh's Gallery">Gogh's Gallery</option>
+                                <option value="London Museum">London Museum</option>
                             </select>
                         </div>
                     </div>

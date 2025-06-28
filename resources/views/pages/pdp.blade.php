@@ -88,10 +88,6 @@
                                 <span class="label">Publisher: </span>
                                 <span id="product-publisher"></span>
                             </div>
-                            <div class="tagged_as item_meta">
-                                <span class="label">Tag: </span>
-                                <span id="product-tag"></span>
-                            </div>
                         </div>
 
                         <div class="product_socials section-space--mt_60">
